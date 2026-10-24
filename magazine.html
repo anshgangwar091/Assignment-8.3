@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Layout — DevPulse News</title>
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="magazine.css">
+</head>
+<body>
+
+    <!-- 1. Magazine Grid Container -->
+    <div class="magazine-grid">
+
+        <!-- 1 & 4. Header Section -->
+        <header class="mag-header">
+            <h1>DevPulse Gazette</h1>
+            <p>Your Daily Source for Modern Web Standards &amp; CSS Architecture</p>
+        </header>
+
+        <!-- 1 & 4. Navigation Section -->
+        <nav class="mag-nav">
+            <ul>
+                <li><a href="#">Top Stories</a></li>
+                <li><a href="#">Tech &amp; Code</a></li>
+                <li><a href="#">Design Systems</a></li>
+                <li><a href="#">Opinion</a></li>
+            </ul>
+        </nav>
+
+        <!-- 1, 4 & 5. Main Article Section (Gets more space) -->
+        <main class="mag-main">
+            <article>
+                <span class="category-tag">Featured Story</span>
+                <h2>Mastering CSS Grid Areas for Complex Editorial Layouts</h2>
+                <p class="article-meta">Published on October 24, 2026 by Alex Turner</p>
+                <p>
+                    CSS Grid areas provide an intuitive, visual way to map out web page layouts without relying on float clears or cumbersome positioning hacks. By defining explicit layout templates using names, developers can reorganize complex magazine structures instantly.
+                </p>
+                <p>
+                    Whether building multi-column news platforms or immersive storytelling portfolios, named grid areas allow your stylesheet to mirror your layout's exact visual blueprint.
+                </p>
+            </article>
+        </main>
+
+        <!-- 1 & 4. Sidebar Section -->
+        aside class="mag-sidebar">
+            <div class="sidebar-widget">
+                <h3>Trending News</h3>
+                <ul>
+                    <li><a href="#">Flexbox vs. Grid: When to Use Which</a></li>
+                    <li><a href="#">The Rise of CSS Design Tokens</a></li>
+                    <li><a href="#">Building Accessible Web Forms</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-widget">
+                <h3>Editor's Choice</h3>
+                <p>Explore our new interactive guide on responsive web architecture and fluid typography.</p>
+            </div>
+        </aside>
+
+        <!-- 1 & 4. Footer Section -->
+        <footer class="mag-footer">
+            <p>&copy; 2026 DevPulse Gazette. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
